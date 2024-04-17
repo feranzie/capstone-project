@@ -1,0 +1,136 @@
+[0m12:13:56.269833 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002591D495660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259201F60B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259201F5EA0>]}
+
+
+============================== 12:13:56.277880 | 285181b1-7c44-4c9f-9fbb-0c545fe26b52 ==============================
+[0m12:13:56.277880 [info ] [MainThread]: Running with dbt=1.7.8
+[0m12:13:56.278835 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m12:14:26.192650 [debug] [MainThread]: Starter project path: C:\Users\DELL\anaconda3\envs\dbt-env\lib\site-packages\dbt\include\starter_project
+[0m12:14:26.238646 [info ] [MainThread]: 
+Your new dbt project "capstone" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:14:26.242648 [info ] [MainThread]: Setting up your profile.
+[0m12:16:39.079531 [info ] [MainThread]: Profile capstone written to C:\Users\DELL\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:16:39.082529 [debug] [MainThread]: Command `dbt init` succeeded at 12:16:39.082529 after 162.91 seconds
+[0m12:16:39.083531 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002591D495660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025920DA6A40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025920DA6CB0>]}
+[0m12:16:39.084532 [debug] [MainThread]: Flushing usage events
+[0m12:43:55.217038 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BB3235660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BB5F96080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BB5F95E70>]}
+
+
+============================== 12:43:55.223022 | 78319e04-92ef-4055-8f0c-72660d223fc6 ==============================
+[0m12:43:55.223022 [info ] [MainThread]: Running with dbt=1.7.8
+[0m12:43:55.223999 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:46:04.378187 [debug] [MainThread]: Starter project path: C:\Users\DELL\anaconda3\envs\dbt-env\lib\site-packages\dbt\include\starter_project
+[0m12:46:04.412230 [info ] [MainThread]: 
+Your new dbt project "dbt_capstone" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:46:04.416183 [info ] [MainThread]: Setting up your profile.
+[0m12:47:20.240387 [info ] [MainThread]: Profile dbt_capstone written to C:\Users\DELL\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:47:20.244386 [debug] [MainThread]: Command `dbt init` succeeded at 12:47:20.244386 after 205.11 seconds
+[0m12:47:20.247385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BB3235660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BB6B46A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BB6B46C80>]}
+[0m12:47:20.248386 [debug] [MainThread]: Flushing usage events
+[0m12:49:26.654254 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BBA7D46AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BBAAAB2110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BBAAAB1F00>]}
+
+
+============================== 12:49:26.658307 | d913a40c-36a6-4520-b6bf-1a0914230908 ==============================
+[0m12:49:26.658307 [info ] [MainThread]: Running with dbt=1.7.8
+[0m12:49:26.660255 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:49:26.661253 [info ] [MainThread]: dbt version: 1.7.8
+[0m12:49:26.662255 [info ] [MainThread]: python version: 3.10.13
+[0m12:49:26.663263 [info ] [MainThread]: python path: C:\Users\DELL\anaconda3\envs\dbt-env\python.exe
+[0m12:49:26.664253 [info ] [MainThread]: os info: Windows-10-10.0.18363-SP0
+[0m12:49:27.426254 [info ] [MainThread]: Using profiles dir at C:\Users\DELL\.dbt
+[0m12:49:27.427207 [info ] [MainThread]: Using profiles.yml file at C:\Users\DELL\.dbt\profiles.yml
+[0m12:49:27.429207 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\DELL\Desktop\Project\dbt_project.yml
+[0m12:49:27.430906 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m12:49:27.433908 [debug] [MainThread]: Command `dbt debug` failed at 12:49:27.433908 after 0.86 seconds
+[0m12:49:27.434908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BBA7D46AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BBAB65B4C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BBAAA0BD60>]}
+[0m12:49:27.435909 [debug] [MainThread]: Flushing usage events
+[0m12:50:48.395226 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A8ABD6AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A8D932110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A8D931F00>]}
+
+
+============================== 12:50:48.401831 | 85db228a-f1fe-4ab3-a3f1-8db6a86ee0b2 ==============================
+[0m12:50:48.401831 [info ] [MainThread]: Running with dbt=1.7.8
+[0m12:50:48.403450 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:50:48.405580 [info ] [MainThread]: dbt version: 1.7.8
+[0m12:50:48.406626 [info ] [MainThread]: python version: 3.10.13
+[0m12:50:48.408219 [info ] [MainThread]: python path: C:\Users\DELL\anaconda3\envs\dbt-env\python.exe
+[0m12:50:48.409821 [info ] [MainThread]: os info: Windows-10-10.0.18363-SP0
+[0m12:50:49.137782 [info ] [MainThread]: Using profiles dir at C:\Users\DELL\.dbt
+[0m12:50:49.139780 [info ] [MainThread]: Using profiles.yml file at C:\Users\DELL\.dbt\profiles.yml
+[0m12:50:49.141792 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\DELL\Desktop\Project\dbt_project.yml
+[0m12:50:49.143791 [info ] [MainThread]: adapter type: bigquery
+[0m12:50:49.145788 [info ] [MainThread]: adapter version: 1.7.4
+[0m12:50:49.147790 [info ] [MainThread]: Configuration:
+[0m12:50:49.148789 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:50:49.150513 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:50:49.152500 [info ] [MainThread]: Required dependencies:
+[0m12:50:49.154497 [debug] [MainThread]: Executing "git --help"
+[0m12:50:49.201499 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:50:49.202500 [debug] [MainThread]: STDERR: "b''"
+[0m12:50:49.204497 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:50:49.205501 [info ] [MainThread]: Connection:
+[0m12:50:49.207501 [info ] [MainThread]:   method: service-account
+[0m12:50:49.208496 [info ] [MainThread]:   database: capstone-420320
+[0m12:50:49.209499 [info ] [MainThread]:   execution_project: capstone-420320
+[0m12:50:49.211499 [info ] [MainThread]:   schema: suicide_data
+[0m12:50:49.214500 [info ] [MainThread]:   location: US
+[0m12:50:49.215502 [info ] [MainThread]:   priority: interactive
+[0m12:50:49.217497 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m12:50:49.219500 [info ] [MainThread]:   impersonate_service_account: None
+[0m12:50:49.220496 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m12:50:49.222499 [info ] [MainThread]:   job_retries: 1
+[0m12:50:49.223498 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m12:50:49.224497 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m12:50:49.225499 [info ] [MainThread]:   keyfile: C:/Users/DELL/Downloads/capstone-420320-2938e5d4b161.json
+[0m12:50:49.226499 [info ] [MainThread]:   timeout_seconds: 300
+[0m12:50:49.228500 [info ] [MainThread]:   refresh_token: None
+[0m12:50:49.229497 [info ] [MainThread]:   client_id: None
+[0m12:50:49.231499 [info ] [MainThread]:   token_uri: None
+[0m12:50:49.232498 [info ] [MainThread]:   dataproc_region: None
+[0m12:50:49.234498 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m12:50:49.236501 [info ] [MainThread]:   gcs_bucket: None
+[0m12:50:49.238500 [info ] [MainThread]:   dataproc_batch: None
+[0m12:50:49.239499 [info ] [MainThread]: Registered adapter: bigquery=1.7.4
+[0m12:50:49.240499 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m12:50:49.241497 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:50:49.245500 [debug] [MainThread]: On debug: select 1 as id
+[0m12:50:52.431671 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=capstone-420320&j=bq:US:85ac2b5e-1428-4f2b-9a0f-e9047368f059&page=queryresults
+[0m12:50:53.671153 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:50:53.673147 [info ] [MainThread]: [31m1 check failed:[0m
+[0m12:50:53.674147 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\DELL\Desktop\Project\dbt_project.yml> not found
+
+[0m12:50:53.677147 [debug] [MainThread]: Command `dbt debug` failed at 12:50:53.677147 after 5.38 seconds
+[0m12:50:53.679149 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:50:53.680148 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A8ABD6AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A8E4DDDE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A8E4DD540>]}
+[0m12:50:53.682150 [debug] [MainThread]: Flushing usage events

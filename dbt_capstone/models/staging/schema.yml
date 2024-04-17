@@ -1,0 +1,45 @@
+version: 2
+
+sources:
+    - name: staging
+      database: capstone-420320
+      schema: suicide_data
+
+      tables:
+        - name: capstone_suicide
+
+models:
+    - name: stg_suicide_data
+      description: >
+        This compiled dataset pulled from four other datasets linked by time and place, 
+        and was built to find signals correlated to increased suicide rates among different cohorts globally, 
+        across the socio-economic spectrum.
+      columns:
+          - name: country
+            description: The country
+          - name: year 
+            description: The year data was gotten
+          - name: sex 
+            description: The sex of the data sample
+          - name: age 
+            description: The age of data sample
+          - name: suicides_no
+            description: The number of suicides that year
+          - name: population 
+            description: The population of the country that year
+          - name: suicides per 100k
+            description: The amount of suicides per 100k 
+          - name: HDI for year 
+            description: The human development index of the country that year
+          - name: gdp_for_year
+            description: >
+              The Gross domestic product (GDP) is the total monetary or market value of 
+              all the finished goods and services produced within a country's borders in a specific time period
+          - name: gdp_per_capita 
+            description: > 
+              Gross domestic product (GDP) per capita is an economic metric that breaks down a country's 
+              economic output to a per person allocation.
+          - name: generation 
+            description: The generation of data sample
+          
+
