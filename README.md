@@ -131,8 +131,8 @@ variable "project" {
   default = "<Your GCP Project ID>"
   type= string
 }
-```
 
+```
 3. change directory to terraform and init it
 
 ```bash
@@ -190,6 +190,7 @@ $ dbt init
 
 ```
 $ dbt debug
+```
 
 
 3. Install dependencies
