@@ -13,7 +13,7 @@ select
     -- identifiers
     {{ dbt_utils.surrogate_key(['country', 'year']) }} as id,
     cast(country as string) as country,
-    cast(year as integer) as year,
+    cast(year as timestamp) as year,
     cast(sex as string) as sex,
     cast(age as string) as age,
     cast(suicides_no as integer) as suicides_no,
@@ -29,8 +29,8 @@ where rn = 1
 
 
 -- dbt build --m <model.sql> --var 'is_test_run: false'
-{% if var('is_test_run', default=true) %}
+-- {% if var('is_test_run', default=true) %}
 
-  limit 100
+--   limit 100
 
-{% endif %}
+-- {% endif %}
