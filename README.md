@@ -235,5 +235,7 @@ $ dbt run
 
 
 
+269f8d5
 
-visualization: https://lookerstudio.google.com/u/0/reporting/6e1e04cf-e8f2-443e-b817-85fb7ba02974
+
+visualization: https://lookerstudio.google.com/reporting/6e1e04cf-e8f2-443e-b817-85fb7ba02974
