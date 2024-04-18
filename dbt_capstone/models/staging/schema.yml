@@ -37,7 +37,7 @@ models:
               all the finished goods and services produced within a country's borders in a specific time period
           - name: gdp_per_capita 
             description: > 
-              Gross domestic product (GDP) per capita is an economic metric that breaks down a country's 
+              The Gross domestic product (GDP) per capita is an economic metric that breaks down a country's 
               economic output to a per person allocation.
           - name: generation 
             description: The generation of data sample
