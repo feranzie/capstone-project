@@ -57,8 +57,10 @@ More information about this dataset is available on [Kaggle](https://www.kaggle.
 
 The dashboard is live at [this link](https://lookerstudio.google.com/reporting/6e1e04cf-e8f2-443e-b817-85fb7ba02974)
 The dashboard shows suicide distribution per country
--suicide age distrobution
--relationship between gdp per capita and suicide rates
+- The gender based suicide distribution shows that men commmit more suicide than women
+- The suicide age distrobution shows thet people in their midlife between ages (35-54) comit the most suicide
+- The relationship between gdp per capita and suicide rates shows a direct correlation between gdp per capita and suiciide rates
+- The Amount of suicides per country plot shows that russua has the highest suicide rate
 
 
 
