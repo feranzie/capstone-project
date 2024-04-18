@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: facts_suicide
+    description: >
+      All information about suicides from  1985 to 2016
