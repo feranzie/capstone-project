@@ -20,10 +20,13 @@ def transform( path:Path) -> pd.DataFrame:
     df["HDI for year"].fillna(0, inplace=True)
 
     df.drop(["country-year" ], axis=1, inplace=True)
-    df = df.rename(columns={'suicides/100k pop': 'suicides per 100k'})
+    df = df.rename(columns={'suicides/100k pop': 'suicides_per_100k'})
+    df = df.rename(columns={'HDI for year': 'HDI_for_year'})
     df = df.rename(columns={' gdp_for_year ($) ': 'gdp_for_year'})
     df = df.rename(columns={'gdp_per_capita ($)': 'gdp_per_capita'})
-    print(f"pre :missing HDI for year:{df['HDI for year'].isna().sum()}")
+    df["year"] = pd.to_datetime(df["year"], format = "%Y")
+
+    print(f"pre :missing HDI for year:{df['HDI_for_year'].isna().sum()}")
     df.dropna(inplace=True)
     return df
 @task()
