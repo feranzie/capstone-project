@@ -55,7 +55,10 @@ More information about this dataset is available on [Kaggle](https://www.kaggle.
 
 ## Data visualization: Dashboards
 
-Sample dashboard is available under [this link](https://lookerstudio.google.com/reporting/6e1e04cf-e8f2-443e-b817-85fb7ba02974)
+The dashboard is live at [this link](https://lookerstudio.google.com/reporting/6e1e04cf-e8f2-443e-b817-85fb7ba02974)
+The dashboard shows suicide distribution per country
+-suicide age distrobution
+-relationship between gdp per capita and suicide rates
 
 
 
