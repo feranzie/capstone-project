@@ -25,6 +25,7 @@ def transform( path:Path) -> pd.DataFrame:
     df = df.rename(columns={' gdp_for_year ($) ': 'gdp_for_year'})
     df = df.rename(columns={'gdp_per_capita ($)': 'gdp_per_capita'})
     df["year"] = pd.to_datetime(df["year"], format = "%Y")
+    print(df.info())
 
     print(f"pre :missing HDI for year:{df['HDI_for_year'].isna().sum()}")
     df.dropna(inplace=True)
