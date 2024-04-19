@@ -169,10 +169,10 @@ $ prefect orion start
 - go back to Blocks and add another one - GCS Bucket. Fill the Block Name with *GCP_BUCKET* parameter in ```environment``` file, set name of bucket and set Gcp Credentials to Block created above.
 
 
-3. Go to prefect directory and run both python files. All flows should be completed.
+3. Go to flows directory and run both python files. All flows should be completed.
 
 ```bash
-$ cd prefect
+$ cd flows
 $ python etl_web_to_gcs.py
 $ python etl_gcs_to_bq.py
 ```
